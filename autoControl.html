@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>自动化控制中心</title>
+	<!-- <link rel="stylesheet" href="../css/main.css" /> -->
+	<link rel="stylesheet" href="static/front/css/main.css"/>
+	<!-- <link rel="stylesheet" href="../cssDemo/autoControl.css" /> -->
+	<link rel="stylesheet" href="static/front/css/autoControl.css"/>
+</head>
+<body>
+	<div class="controlTit">
+		<span>自动化控制中心</span>
+	</div>
+	<div style="height: 728px;overflow-y:auto; ">
+		<div class="controlContent">
+			<p class="tit">水肥一体化控制</p>
+			<div class="surface">
+				<ul>
+					<li>
+						<div class="surface-ioc ioc1"></div>
+						<div class="surface-name">施肥机物联网
+							<button class="surface-btn" onclick="javascript:this.innerHTML=(this.innerHTML=='+'?'-':'+');">+</button>
+							<!--二级下拉-->
+							<ul class="surface-ul">								
+								<li>
+									<div class="surface-name">施肥机1</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>
+								<li>
+									<div class="surface-name">施肥机2</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>	
+								<li>
+									<div class="surface-name">施肥机3</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>								
+							</ul>
+						</div>
+						<div class="surface-bnt">
+							<div class="switch switch-colse">
+								<div class="open"><span>开</span><i></i></div>
+								<div class="btClose"><i></i><span>关</span></div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="surface-ioc ioc2"></div>
+						<div class="surface-name">灌溉系统水泵
+							<button class="surface-btn" onclick="javascript:this.innerHTML=(this.innerHTML=='+'?'-':'+');">+</button>
+							<!--二级下拉-->
+							<ul class="surface-ul">
+								<li>
+									<div class="surface-name">灌溉系统水泵1</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>
+								<li>
+									<div class="surface-name">灌溉系统水泵2</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>	
+								<li>
+									<div class="surface-name">灌溉系统水泵3</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>	
+								<li>
+									<div class="surface-name">灌溉系统水泵5</div>
+									<div class="surface-bnt">	
+										<div class="switch switch-colse">
+											<div class="open"><span>开</span><i></i></div>
+											<div class="btClose"><i></i><span>关</span></div>	
+										</div>						
+									</div>
+								</li>								
+							</ul>						
+						</div>
+						<div class="surface-bnt">
+							<div class="switch">
+								<div class="open"><span>开</span><i></i></div>
+								<div class="btClose"><i></i><span>关</span></div>															
+							</div>							
+						</div>
+					</li>
+					<li>
+						<div class="surface-ioc ioc3"></div>
+						<div class="surface-name">主管电磁阀
+							<button class="surface-btn" onclick="javascript:this.innerHTML=(this.innerHTML=='+'?'-':'+');">+</button>
+							<!--二级下拉-->
+							<ul class="surface-ul"></ul>						
+						</div>
+						<div class="surface-bnt">
+							<div class="switch">
+								<div class="open"><span>开</span><i></i></div>
+								<div class="btClose"><i></i><span>关</span></div>															
+							</div>								
+						</div>
+					</li>	
+					<li class="child_4">
+						<div class="surface-ioc ioc3"></div>
+						<div class="surface-name">支管电磁阀
+							<button class="surface-btn" onclick="javascript:this.innerHTML=(this.innerHTML=='+'?'-':'+');">+</button>
+							<!--二级下拉-->
+							<ul class="surface-ul"></ul>						
+						</div>
+						<div class="surface-bnt">
+							<div class="switch">
+								<div class="open"><span>开</span><i></i></div>
+								<div class="btClose"><i></i><span>关</span></div>															
+							</div>								
+						</div>
+					</li>					
+				</ul>
+			</div>
+		</div>
+		<div class="controlContent">
+			<p class="tit">物联网太阳能杀虫灯控制</p>
+			<div class="surface">
+				<ul>
+					<li>
+						<div class="surface-ioc ioc4"></div>
+						<div class="surface-name">物联网太阳能杀虫灯
+							<button class="surface-btn" onclick="javascript:this.innerHTML=(this.innerHTML=='+'?'-':'+');">+</button>
+							<!--二级下拉-->
+							<ul class="surface-ul"></ul>						
+						</div>
+						<div class="surface-bnt">
+							<div class="switch">
+								<div class="open"><span>开</span><i></i></div>
+								<div class="btClose"><i></i><span>关</span></div>															
+							</div>								
+						</div>
+					</li>				
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<!-- <script src="../js/jquery.min.js"></script> -->
+<script src="static/front/plugins/jquery-3.3.1.min.js"></script>
+<script>
+$(document).on('click','.surface-btn',function(e){//二级栏目开关
+	var show_ul = $(this).siblings("ul");
+//	var show_li = '<li>'+
+//					'<div class="surface-name">施肥机1</div>'+
+//					'<div class="surface-bnt">'+	
+//						'<div class="switch switch-colse">'+
+//							'<div class="open"><span>开</span><i></i></div>'+
+//							'<div class="btClose"><i></i><span>关</span></div>'+	
+//						'</div>'+						
+//					'</div>'+
+//				 '</li>';	  
+var li_length = $(this).siblings().find("li").length;
+console.log(li_length);
+if(li_length>0){
+	ul_height = li_length*40;
+	if(show_ul.is(':hidden')){
+		show_ul.show();
+		console.log("show");
+		$(this).parent().parent("li").css({"margin-bottom":ul_height,"border-bottom":"1px solid #fff"});     	
+	}else{
+		show_ul.hide();
+		console.log("hide");
+		$(this).parent().parent("li").css({"margin-bottom":"0","border-bottom":"none"});
+	}   
+}				
+})
+$(document).on('click',".switch",function(e){ //按钮开关
+	$(this).toggleClass("switch-colse");
+})
+
+//$(document).on('click',".closeSurface-btn",function(e){    
+//  var li_length1 = $(this).parent().parent().parent("ul").find("li").length;
+//	if(li_length1>0){
+//		ul_height = (li_length1-1)*40;
+//		$(this).parent().parent().parent().parent().parent("li").css({"margin-bottom":ul_height,"border-bottom":"1px solid #fff"});		
+//	}else{
+//		$(this).parent().parent().parent().parent().parent("li").css("border-bottom","none");	
+//		alert(1)
+//	}
+//	$(this).parent().parent("li").remove(); 
+//})
+//$(".surface-bnt .switch").click(function(){//动态数据需改成onclick
+//	$(this).toggleClass("switch-colse");
+////	var child_ul = $(this).parent().siblings().find("li").length,show_ul = $(this).parent().siblings().find("ul");
+////	if($(this).is('.switch-colse')){	
+////		if(child_ul>0){
+////			ul_height = child_ul*40;
+////			$(this).parent().parent("li").css({"margin-bottom":"0","border-bottom":"none"});
+////			show_ul.hide();
+////		}		
+////	}else{
+////		if(child_ul>0){
+////			ul_height = child_ul*40;
+////			$(this).parent().parent("li").css({"margin-bottom":ul_height,"border-bottom":"1px solid #fff"});
+////			show_ul.show();	
+////		}  
+////	} 			
+//})
+</script>

@@ -1,0 +1,679 @@
+/*控制中心*/
+.yx-control-center{
+    width: 100%;
+    height: 993px;
+    overflow: hidden;
+    position: relative;
+/*     background: linear-gradient(to right,#3B6ff7, #1a57e0 90%); */
+}
+.yx-control-center>div{
+    float: left;
+    height: 100%;
+}
+/*控制中心左侧*/
+.yx-control-center_left{
+    width: 1130px;
+}
+.agriculture_generalization{
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+    position: relative;
+    padding: 60px 0 0 40px;
+}
+.agriculture_generalization>.content_line{
+    display: inline-block;
+    width: 1058px;
+    height: 2px;
+    background: url(../img/data-center/home-shuju-line.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 40px;
+    bottom: 42px;
+    z-index: -1;
+}
+/*农业企业概况详情*/
+.agriculture_generalization_left_top{
+    width: 380px;
+    height: 332px;
+    z-index: 1;
+}
+/*基本概况例图*/
+.totalValue_pic_list{
+    width: 350px;
+    height: 40px;
+    margin-top: 40px;
+}
+.totalValue_pic_list ul{
+    overflow: hidden;
+}
+.totalValue_pic_list ul li{
+    float: left;
+    width: 50%;
+    color: #b0d3fc;
+    text-align: left;
+    font-size: 14px;
+}
+.totalValue_pic_list ul li>b{
+    display: inline-block;
+    width: 15px;
+    height: 8px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+.totalValue_pic_list ul li:nth-child(1)>b{
+    background-color: #FBBA2E;
+}
+.totalValue_pic_list ul li:nth-child(2)>b{
+    background-color: #6FB1FD;
+    margin-left: 20px;
+}
+.totalValue_pic_list ul li:nth-child(3)>b{
+    background-color: #FF526F;
+}
+.list_totalValue{
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+}
+.labels{
+    font-size: 14px;
+}
+#container1{
+    min-width: 310px;
+    height: 230px;
+    max-width: 535px;
+    margin: 0 auto;
+    position: relative;
+    left: -161px;
+}
+
+/*介绍标题*/
+.yx_data-tit{
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #B0D3FC;
+}
+/*.yx_data-tit>b{*/
+    /*display: inline-block;*/
+    /*width: 4px;*/
+    /*height: 20px;*/
+    /*float: left;*/
+    /*background-color: #7cb5ec;*/
+    /*margin-right: 10px;*/
+/*}*/
+div.yx_data-tit{
+    width: 100%;
+    height: 36px;
+    position: relative;
+    overflow: hidden;
+}
+.yx_overflow{
+	height:100% !important;
+    overflow: initial !important;
+}
+.yx_overflow .layui-this i{
+    display: inline-block;
+    width: 14px;
+    height: 9px;
+    background: url(../img/data-center/home-time.png)no-repeat 100% center;
+    background-size: 100% 100%;
+     position: absolute;
+     top: 41px;
+     left: 19px;
+ }
+div.yx_data-tit ul{
+    width: auto;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    top: -25px;
+    left: -158px;
+    border: none;
+    z-index: 6;
+}
+div.yx_data-tit>p{
+    width: 100%;
+}
+
+div.yx_data-tit i.content_line{
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background: url(../img/data-center/home-shuju-line.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 34px;
+    z-index: -1;
+}
+    /*产业数据*/
+.industrial_data{
+    width: 380px;
+    height: 280px;
+}
+.industrial_data ul{
+    width: auto;
+    height: 160px;
+    overflow: hidden;
+    margin-top: 35px;
+    padding-left: 26px;
+}
+.industrial_data ul li{
+    float: left;
+    width: 125px;
+    height: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: #B0D3FC;
+    margin-bottom: 18px;
+}
+.industrial_data ul li p:last-child{
+    width: 129px;
+    height: 35px;
+    line-height: 31px;
+    background: url(../img/data-center/home-shuju-kuang.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    margin-top: 6px;
+    padding: 2px;
+    position: relative;
+}
+.industrial_data ul li p:last-child b{
+    display: inline-block;
+    width: 125px;
+    height: 31px;
+    background-color: #0B3494;
+    opacity: .48;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    z-index: -1;
+}
+.industrial_data ul li.yx_data_li{
+    margin-left: 66px;
+}
+    /*top地图*/
+.agriculture_generalization_right{
+    position: absolute;
+    right: 140px;
+    top: 46px;
+    width: 520px;
+    height: 606px;
+    background: url(../img/data-center/home-map.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    z-index: 0;
+}
+    /*农业生产可视化*/
+.agriculture_visualization{
+    padding-left: 39px;
+}
+.agriculture_visualization .yx_data-tit{
+    margin-bottom: 41px;
+}
+.agriculture_visualization_details{
+    width: 1070px;
+    height: 210px;
+    padding-left: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.agriculture_visualization_details ul{
+    overflow: hidden;
+    width: 17000000px;
+    height: 210px;
+    position: relative;
+    z-index: 0;
+}
+.agriculture_visualization_details ul li{
+	float: left;
+    width: 299px;
+    height: 200px;
+    margin-left: 32px;
+    background: url(../img/data-center/home-video-kuang.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.agriculture_visualization_details ul li>img{
+	width:100%;
+	height:100%;
+}
+.agriculture_visualization_details ul li:first-child{
+    margin-left: 0;
+}
+.agriculture_visualization_details ul li i{
+    position: absolute;
+    top: 85px;
+    left: 128px;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background: url(../img/data-center/home-video.png)no-repeat 100% center;
+    background-size: 100% 100%;
+}
+.agriculture_visualization_details b.btn_left,.agriculture_visualization_details b.btn_right{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 90px;
+    cursor:pointer;
+    z-index: 10;
+}
+.agriculture_visualization_details b.btn_left{
+    background: url(../img/data-center/home-left.png)no-repeat 100% center;
+    left: 0;
+}
+.agriculture_visualization_details b.btn_right{
+    background: url(../img/data-center/home-right.png)no-repeat 100% center;
+    left: 1028px;
+}
+.agriculture_visualization_details i{
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 205px;
+    background-color: #1B5BE1;
+    z-index: 9;
+}
+.agriculture_visualization_details i.i_left{
+    left: 0;
+}
+.agriculture_visualization_details i.i_right{
+    right: 0;
+    top: 0;
+}
+/*控制中心右侧*/
+.yx-control-center_right{
+    width: 772px;
+    padding: 60px 32px 0 23px;
+    overflow: hidden;
+}
+    /*农业总产值*/
+.agriculture_totalValue{
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+}
+#container{
+    min-width: 500px;
+    height: 200px;
+    max-width: 400px;
+    margin: 45px auto 0 auto;
+}
+    /*农业总产量*/
+.agriculture_totalYield{
+    width: auto;
+    height: 170px;
+    overflow: hidden;
+    /*margin-top: 30px;*/
+}
+.agriculture_totalYield ul{
+	z-index:-1;
+}
+#container2{
+    min-width: 500px;
+    height: 200px;
+    max-width: 400px;
+    margin: 45px auto 0 auto;
+}
+    /*乡镇农业产值概况*/
+.town_agriculture_totalValue{
+    width: auto;
+    height: 340px;
+    overflow: hidden;
+    margin-top: 36px;
+}
+.town_agriculture_totalValue .layui-tab {
+    margin: 0;
+    z-index: 10;
+}
+.town_agriculture_totalValue  .layui-tab-title .layui-this:after {
+    border: none;
+}
+.town_agriculture_totalValue  .layui-tab-title span{
+    font-size: 14px;
+    color: #9DBBFF;
+}
+.town_agriculture_totalValue  .layui-tab-content {
+    padding: 20px 0 0 0;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -98px;
+}
+.town_agriculture_totalValue .layui-tab-title{
+    height: 48px;
+}
+.layui-tab-content .layui-show{
+    overflow: hidden;
+}
+.layui-tab-content .layui-show>div{
+    float: left;
+}
+.layui-tab-content .layui-show .layui-progress{
+    width: 157px;
+    height: 10px;
+    border-radius: 0;
+    background-color: #6FB1FD;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 12px;
+}
+/*.layui-tab-content .layui-show>span{*/
+    /*display: inline-block;*/
+    /*width: 58px;*/
+    /*font-size: 13px;*/
+/*}*/
+/*.layui-tab-content .layui-show>span.yx_data_name{*/
+    /*text-align: right;*/
+    /*float: left;*/
+/*}*/
+/*.layui-tab-content .layui-show  span.yx_data_number{*/
+    /*text-align: right;*/
+    /*float: right;*/
+    /*margin-right: 7px;*/
+/*}*/
+.layui-tab-content .layui-show .layui-progress .layui-progress-bar{
+    height: 10px;
+    border-radius: 0;
+    left: 0;
+    top: 0;
+}
+.layui-tab-title li {
+    min-width: 50px !important;
+    padding: 0 10px !important;
+}
+/*地图弹框*/
+.yx_map_alert{
+    position: absolute;
+    top: 97px;
+    left: 300px;
+    width: 820px;
+    height: 300px !important;
+    /* background-color: #3392ff; */
+    text-align: center;
+    display: none;
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 7;
+/* 	box-shadow: 0px 0px 3px 0px #3392ff; */
+}
+.yx_map_alert .yx_details_close{
+	position: relative;	
+    top: 0;
+    right: 0;
+}
+.yx_map_alert p.enterprise_logo_tit{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.enterprise_logo{
+    display: inline-block;
+    width: 628px;
+    height: 171px;
+    line-height: 199px;
+    background: url(../img/data-center/home-map-tc-bigimg-kuang.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    text-align: center;
+    position: relative;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.enterprise_logo i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #0B3494;
+    opacity: .48;
+    z-index: -1;
+}
+.enterprise_logo img{
+    width: 608px;
+    height: 151px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.yx_map_alert_content{
+	height: 148px;
+	height: 148px\0 !important;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;  /* 控制显示行数*/
+    overflow: hidden;  
+    margin-bottom: 42px;
+    overflow-y:auto;
+}
+.yx_map_alert_content img{
+	max-width:100%;
+}
+       .yx_map_alert_content::-webkit-scrollbar {/*滚动条整体样式*/
+            width: 6px;     /*高宽分别对应横竖滚动条的尺寸*/
+            height: 6px;
+        }
+        .yx_map_alert_content::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+            border-radius: 3px;
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            background: #c8e2ff;
+        }
+        .yx_map_alert_content::-webkit-scrollbar-track {/*滚动条里面轨道*/
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+            border-radius: 0;
+            background: #3392ff;
+        }
+/*!* .yx_map_alert_content::-webkit-scrollbar {display:none} *!*/
+/*!*地址/电话*!*/
+/*.enterprise_logo_information{*/
+    /*color: #c8e2ff;*/
+    /*font-size: 13px;*/
+    /*margin: 12px 0 36px 0;*/
+/*}*/
+/*.map_information{*/
+    /*margin-right: 30px;*/
+/*}*/
+/*.map_information b,.phone_information b{*/
+    /*margin-right: 4px;*/
+    /*position: relative;*/
+    /*top: 2px;*/
+/*}*/
+/*.map_information b{*/
+    /*display: inline-block;*/
+    /*width:10px;*/
+    /*height:14px;*/
+    /*background: url(../img/data-center/home-map-tc-icon-place.png)no-repeat 100% center;*/
+    /*background-size: 100% 100%;*/
+/*}*/
+/*.phone_information b{*/
+    /*display: inline-block;*/
+    /*width:15px;*/
+    /*height:15px;*/
+    /*background: url(../img/data-center/home-map-tc-icon-phone.png)no-repeat 100% center;*/
+    /*background-size: 100% 100%;*/
+/*}*/
+/*.yx_map_alert div.yx_data-tit{*/
+    /*margin-bottom: 10px;*/
+    /*color: #fff;    */
+/*}*/
+/*.yx_map_alert div.yx_data-tit i.content_line{*/
+    /*background: url(../img/data-center/home-map-tc-line.png)no-repeat 100% center;*/
+    /*z-index: auto;*/
+/*}*/
+/*.yx_map_alert .cp_zs{*/
+    /*margin-bottom: 0!important;*/
+/*}*/
+/*.yx_map_alert_product{*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+    /*height: 230px;*/
+    /*padding: 16px 20px 20px 20px;*/
+/*}*/
+/*.yx_map_alert_product li{*/
+    /*float: left;*/
+    /*width: 166px;*/
+    /*height: 192px;*/
+    /*margin-left: 43px;*/
+    /*padding: 4px;*/
+    /*position: relative;*/
+    /*cursor:pointer;*/
+/*}*/
+/*.yx_map_alert_product li:first-child{*/
+    /*margin-left: 0;*/
+/*}*/
+/*.yx_map_alert_product li img{*/
+    /*width: 100%;*/
+    /*height: 158px;*/
+/*}*/
+/*.yx_map_alert_product li b{*/
+    /*display: inline-block;*/
+    /*width: 166px;*/
+    /*height: 14px;*/
+    /*background: url(../img/data-center/home-map-tc-pruduct-kuang.png)no-repeat 100% center;*/
+    /*background-size: 100% 100%;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: -4px;*/
+/*}*/
+/*.alert_product_tit{*/
+    /*width: 100%;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*text-align: center;*/
+    /*color: #B0D3FC;*/
+    /*background-color: #0B3494;*/
+    /*opacity: .48;*/
+    /*font-size: 14px;*/
+    /*overflow: hidden;*/
+    /*padding: 0 6px;*/
+/*}*/
+/*.agriculture_generalization_right>div:nth-child(0),.agriculture_generalization_right>div:nth-child(4),.agriculture_generalization_right>div:nth-child(8){
+	background: url(../img/data-center/map_tk1.png)no-repeat 100% center;
+}
+.agriculture_generalization_right>div:nth-child(1),.agriculture_generalization_right>div:nth-child(5),.agriculture_generalization_right>div:nth-child(9){
+	background: url(../img/data-center/map_tk2.png) no-repeat 100% center;
+}
+.agriculture_generalization_right>div:nth-child(2),.agriculture_generalization_right>div:nth-child(6),.agriculture_generalization_right>div:nth-child(10){
+	background: url(../img/data-center/map_tk3.png)no-repeat 100% center;
+}
+.agriculture_generalization_right>div:nth-child(3),.agriculture_generalization_right>div:nth-child(7),.agriculture_generalization_right>div:nth-child(11){
+	background: url(../img/data-center/map_tk1.png)no-repeat 100% center;
+}*/
+
+.agriculture_generalization_right .cb-map-spot {
+    width: 29px;
+    height: 29px;
+    background: url(../img/data-center/yuan-03.png)no-repeat 100% center;
+    background-size: 100% 100%;
+    position: absolute;
+    cursor: pointer;
+    color: transparent;
+}
+.agriculture_generalization_right .cb-map-spot:nth-child(1) p,.agriculture_generalization_right .cb-map-spot:nth-child(2) p,.agriculture_generalization_right .cb-map-spot:nth-child(3) p{
+	max-width: 190px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    color: #323333;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 42px;
+    position: relative;
+    top: 27px;
+    left: -6px;
+    display: none;
+    overflow: hidden;
+    z-index: 0;
+}
+.agriculture_generalization_right .cb-map-spot p span{
+    display: block;
+    width: 84px;
+    margin: auto;
+}
+.agriculture_generalization_right .cb-map-spot:nth-child(1) p{
+    background: url(../img/data-center/map_tk1.png)no-repeat 100% center;
+}
+.agriculture_generalization_right .cb-map-spot:nth-child(2) p{
+    background: url(../img/data-center/map_tk2.png)no-repeat 100% center;
+}
+.agriculture_generalization_right .cb-map-spot:nth-child(3) p{
+    background: url(../img/data-center/map_tk3.png)no-repeat 100% center;
+}
+.cb-map-spot p b{
+    display: inline-block;
+    background-color: #0B3494;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.highcharts-credits{
+    display: none;
+}
+.highcharts-plot-background{
+    fill: #6bb0ff;
+    opacity: 0.6;
+}
+.highcharts-background{
+    fill: #1b5be1;
+}
+#pie1 .highcharts-plot-background{
+    fill: #1b5be1;
+}
+/* .highcharts-credits,.highcharts-tick,.highcharts-color-undefined .highcharts-graph,.highcharts-markers .highcharts-point {
+    display: none;
+}
+.highcharts-markers .highcharts-point{
+    cursor:pointer;
+}
+.highcharts-plot-background{
+    fill: #3676EB;
+}
+.highcharts-title{
+    fill: rgba(0,0,0,0) !important;
+}
+.highcharts-series-0 text,.highcharts-series-1 text,.highcharts-series-2 text,.highcharts-series-3 text,.highcharts-series-4 text{
+    fill:#B0D3FC !important;
+    font-size: 15px !important;
+}
+.highcharts-tooltip-box g.highcharts-series-0 {
+    transform:translate(-6,3) !important;
+}
+.highcharts-yaxis-grid path:last-child{
+    display: none;
+}
+.layui-tab-content #sf_container .highcharts-legend .highcharts-series-1>rect.highcharts-point,.layui-tab-content #sf_container .highcharts-legend .highcharts-series-0>rect.highcharts-point,.layui-tab-content #sf_container1 .highcharts-legend .highcharts-series-1>rect.highcharts-point,.layui-tab-content #sf_container1 .highcharts-legend .highcharts-series-0>rect.highcharts-point,.layui-tab-content #sf_container2 .highcharts-legend .highcharts-series-1>rect.highcharts-point,.layui-tab-content #sf_container2 .highcharts-legend .highcharts-series-0>rect.highcharts-point{
+     width: 26px;
+     height: 12px;
+     x: -18;
+     y: 4;
+     rx: 0;
+     ry: 0;
+    cursor:pointer;
+ }
+.highcharts-series-1 rect:nth-child(2){
+    x:331;
+} */
+/*@media (max-width: 1366px) {*/
+    /*.yx_overflow .layui-this i {*/
+        /*position: absolute;*/
+        /*top: 35px;*/
+    /*}*/
+/*}*/
